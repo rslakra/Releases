@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.devamatre",
+    "module": "dLogger",
+    "version": "1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.6.1",
+      "buildId": "4orvbpnet5atrlgzad5pavoyhe"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "dLogger-1.0-SNAPSHOT.jar",
+          "url": "dLogger-1.0-SNAPSHOT.jar",
+          "size": 14708,
+          "sha512": "825c1f7dbe291337d6d04159872a72ffa3548c4b7e9aa45f6826843c9b9f6a18a56fdd417fe16d2d76e334301724164ead1b4129278ea7b9840ad0e7ce4d9455",
+          "sha256": "7d3321e12f5c7c965f40950df50b00087844dbf87e5d53bd8f1def32340300b3",
+          "sha1": "81f6f51b23deb945c7e793923ba40a265173d1a1",
+          "md5": "ee881626ba8c8232b77f2c1cb7c3a67e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "log4j",
+          "module": "log4j",
+          "version": {
+            "requires": "1.2.17"
+          }
+        },
+        {
+          "group": "junit",
+          "module": "junit",
+          "version": {
+            "requires": "4.13.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "dLogger-1.0-SNAPSHOT.jar",
+          "url": "dLogger-1.0-SNAPSHOT.jar",
+          "size": 14708,
+          "sha512": "825c1f7dbe291337d6d04159872a72ffa3548c4b7e9aa45f6826843c9b9f6a18a56fdd417fe16d2d76e334301724164ead1b4129278ea7b9840ad0e7ce4d9455",
+          "sha256": "7d3321e12f5c7c965f40950df50b00087844dbf87e5d53bd8f1def32340300b3",
+          "sha1": "81f6f51b23deb945c7e793923ba40a265173d1a1",
+          "md5": "ee881626ba8c8232b77f2c1cb7c3a67e"
+        }
+      ]
+    }
+  ]
+}
